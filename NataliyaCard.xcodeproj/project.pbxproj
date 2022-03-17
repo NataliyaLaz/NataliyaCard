@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880DE3CD27E39F2E001AA61E /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880DE3CC27E39F2E001AA61E /* Pacifico-Regular.ttf */; };
+		880DE3D027E3BCC7001AA61E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880DE3CF27E3BCC7001AA61E /* InfoView.swift */; };
 		88E4B54427E10AED00A74BA4 /* NataliyaCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4B54327E10AED00A74BA4 /* NataliyaCardApp.swift */; };
 		88E4B54627E10AED00A74BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4B54527E10AED00A74BA4 /* ContentView.swift */; };
 		88E4B54827E10AEE00A74BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E4B54727E10AEE00A74BA4 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		880DE3CC27E39F2E001AA61E /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		880DE3CE27E3A11F001AA61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		880DE3CF27E3BCC7001AA61E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		88E4B54027E10AED00A74BA4 /* NataliyaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NataliyaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E4B54327E10AED00A74BA4 /* NataliyaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NataliyaCardApp.swift; sourceTree = "<group>"; };
 		88E4B54527E10AED00A74BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880DE3CB27E39ED8001AA61E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				880DE3CC27E39F2E001AA61E /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		88E4B53727E10AED00A74BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +64,11 @@
 		88E4B54227E10AED00A74BA4 /* NataliyaCard */ = {
 			isa = PBXGroup;
 			children = (
+				880DE3CE27E3A11F001AA61E /* Info.plist */,
+				880DE3CB27E39ED8001AA61E /* fonts */,
 				88E4B54327E10AED00A74BA4 /* NataliyaCardApp.swift */,
 				88E4B54527E10AED00A74BA4 /* ContentView.swift */,
+				880DE3CF27E3BCC7001AA61E /* InfoView.swift */,
 				88E4B54727E10AEE00A74BA4 /* Assets.xcassets */,
 				88E4B54927E10AEE00A74BA4 /* Preview Content */,
 			);
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880DE3CD27E39F2E001AA61E /* Pacifico-Regular.ttf in Resources */,
 				88E4B54B27E10AEE00A74BA4 /* Preview Assets.xcassets in Resources */,
 				88E4B54827E10AEE00A74BA4 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E4B54627E10AED00A74BA4 /* ContentView.swift in Sources */,
+				880DE3D027E3BCC7001AA61E /* InfoView.swift in Sources */,
 				88E4B54427E10AED00A74BA4 /* NataliyaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = C89RJ7Z5HJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NataliyaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = C89RJ7Z5HJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NataliyaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
