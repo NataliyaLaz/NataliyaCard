@@ -31,8 +31,6 @@ struct ContentView: View {
                 Divider()
                 InfoView(text: "+375 29 7153353", imageName: "phone.fill")
                 InfoView(text: "nataliya.laz@gmail.com", imageName: "envelope.fill")
-
-                    
             }
         }
     }
@@ -41,6 +39,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        ContentView()
+            .environment(\.colorScheme, .dark)
     }
 }
 
